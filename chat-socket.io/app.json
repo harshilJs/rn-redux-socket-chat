@@ -3,7 +3,6 @@
     "name": "realtime chat-app",
     "slug": "chat-socket.io",
     "privacy": "public",
-    "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
       "android",
@@ -24,7 +23,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rnsocketchat"
+    },
+    "android": {
+      "package": "com.rnsocketchat"
     }
   }
 }
