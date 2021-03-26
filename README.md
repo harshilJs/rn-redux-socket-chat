@@ -36,4 +36,5 @@ Using React Native (Hook), Socket.IO, Nodejs, Redux, react-navigation, and Gifte
     # go to chat-socket.io
     npm install
     npm start
+    npm run ios
     ```
